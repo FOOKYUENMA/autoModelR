@@ -1,0 +1,30 @@
+Summary:
+Simple regression:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FNE   R-squared:                       0.503
+Model:                            OLS   Adj. R-squared:                  0.502
+Method:                 Least Squares   F-statistic:                     1057.
+Date:                Fri, 17 Oct 2025   Prob (F-statistic):          8.02e-161
+Time:                        19:47:29   Log-Likelihood:                -1119.7
+No. Observations:                1047   AIC:                             2243.
+Df Residuals:                    1045   BIC:                             2253.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -4.788e-16      0.022   -2.2e-14      1.000      -0.043       0.043
+SA             0.7092      0.022     32.519      0.000       0.666       0.752
+==============================================================================
+Omnibus:                       36.205   Durbin-Watson:                   2.033
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               68.519
+Skew:                           0.233   Prob(JB):                     1.32e-15
+Kurtosis:                       4.164   Cond. No.                         1.00
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model:
+[<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x000001C5E4312D10>]
